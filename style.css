@@ -1,0 +1,59 @@
+.cuadrado {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    height: 8rem;
+    width: 8rem;
+    border: solid rgb(104, 99, 99) 1px;
+    background-color: rgb(104, 99, 99);
+}
+
+.cuadradoRojo {
+    margin-bottom: 0.5rem;
+    height: 8rem;
+    width: 8rem;
+    border: solid rgb(104, 99, 99) 1px;
+    background-color: rgb(183, 5, 5);
+}
+
+.cuadradoCeleste {
+    margin-bottom: 0.5rem;
+    height: 8rem;
+    width: 8rem;
+    border: solid rgb(104, 99, 99) 1px;
+    background-color: rgb(5, 162, 183);
+}
+
+.input {
+    width: 5rem;
+}
+
+.contenedorBalanza{
+    padding: 1rem;
+    width: 15rem;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+}
+
+.input3 , .boton3{
+    width: 10rem;
+}
+
+.boton3 {
+    margin-top: 1rem;
+    width: 6rem;
+}
+.resultado {
+    width: 10rem;
+    height: 2rem;
+    background-color: rgba(127, 255, 212, 0.531);
+    text-align: center;
+}
+
+.pesoArgentino , .dolarEstadounidense {
+    display: flex;
+    height: 3rem;
+    padding: 1rem;
+}
